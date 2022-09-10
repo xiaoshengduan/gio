@@ -1,4 +1,4 @@
-module gioui.org
+module github.com/xiaoshengduan/gio-fly
 
 go 1.18
 
