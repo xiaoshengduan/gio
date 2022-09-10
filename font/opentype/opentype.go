@@ -17,12 +17,12 @@ import (
 	"golang.org/x/image/font"
 	"golang.org/x/image/math/fixed"
 
-	"gioui.org/f32"
-	"gioui.org/font/opentype/internal"
-	"gioui.org/io/system"
-	"gioui.org/op"
-	"gioui.org/op/clip"
-	"gioui.org/text"
+	"github.com/xiaoshengduan/gio-fly/f32"
+	"github.com/xiaoshengduan/gio-fly/font/opentype/internal"
+	"github.com/xiaoshengduan/gio-fly/io/system"
+	"github.com/xiaoshengduan/gio-fly/op"
+	"github.com/xiaoshengduan/gio-fly/op/clip"
+	"github.com/xiaoshengduan/gio-fly/text"
 )
 
 // Font implements the text.Shaper interface using a rich text

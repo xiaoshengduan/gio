@@ -17,15 +17,15 @@ import (
 
 	syscall "golang.org/x/sys/windows"
 
-	"gioui.org/app/internal/windows"
-	"gioui.org/unit"
+	"github.com/xiaoshengduan/gio-fly/app/internal/windows"
+	"github.com/xiaoshengduan/gio-fly/unit"
 	gowindows "golang.org/x/sys/windows"
 
-	"gioui.org/f32"
-	"gioui.org/io/clipboard"
-	"gioui.org/io/key"
-	"gioui.org/io/pointer"
-	"gioui.org/io/system"
+	"github.com/xiaoshengduan/gio-fly/f32"
+	"github.com/xiaoshengduan/gio-fly/io/clipboard"
+	"github.com/xiaoshengduan/gio-fly/io/key"
+	"github.com/xiaoshengduan/gio-fly/io/pointer"
+	"github.com/xiaoshengduan/gio-fly/io/system"
 )
 
 type ViewEvent struct {

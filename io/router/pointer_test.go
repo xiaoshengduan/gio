@@ -9,14 +9,14 @@ import (
 	"strings"
 	"testing"
 
-	"gioui.org/f32"
-	"gioui.org/gesture"
-	"gioui.org/io/event"
-	"gioui.org/io/key"
-	"gioui.org/io/pointer"
-	"gioui.org/io/transfer"
-	"gioui.org/op"
-	"gioui.org/op/clip"
+	"github.com/xiaoshengduan/gio-fly/f32"
+	"github.com/xiaoshengduan/gio-fly/gesture"
+	"github.com/xiaoshengduan/gio-fly/io/event"
+	"github.com/xiaoshengduan/gio-fly/io/key"
+	"github.com/xiaoshengduan/gio-fly/io/pointer"
+	"github.com/xiaoshengduan/gio-fly/io/transfer"
+	"github.com/xiaoshengduan/gio-fly/op"
+	"github.com/xiaoshengduan/gio-fly/op/clip"
 )
 
 func TestPointerWakeup(t *testing.T) {

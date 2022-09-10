@@ -5,8 +5,8 @@ package text
 import (
 	"io"
 
-	"gioui.org/io/system"
-	"gioui.org/op/clip"
+	"github.com/xiaoshengduan/gio-fly/io/system"
+	"github.com/xiaoshengduan/gio-fly/op/clip"
 	"github.com/go-text/typesetting/font"
 	"golang.org/x/image/math/fixed"
 )

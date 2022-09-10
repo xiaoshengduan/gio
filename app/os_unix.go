@@ -9,7 +9,7 @@ import (
 	"errors"
 	"unsafe"
 
-	"gioui.org/io/pointer"
+	"github.com/xiaoshengduan/gio-fly/io/pointer"
 )
 
 // ViewEvent provides handles to the underlying window objects for the

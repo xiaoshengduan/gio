@@ -6,14 +6,14 @@ import (
 	"image"
 	"testing"
 
-	"gioui.org/f32"
-	"gioui.org/io/pointer"
-	"gioui.org/io/router"
-	"gioui.org/io/semantic"
-	"gioui.org/io/system"
-	"gioui.org/layout"
-	"gioui.org/op"
-	"gioui.org/widget"
+	"github.com/xiaoshengduan/gio-fly/f32"
+	"github.com/xiaoshengduan/gio-fly/io/pointer"
+	"github.com/xiaoshengduan/gio-fly/io/router"
+	"github.com/xiaoshengduan/gio-fly/io/semantic"
+	"github.com/xiaoshengduan/gio-fly/io/system"
+	"github.com/xiaoshengduan/gio-fly/layout"
+	"github.com/xiaoshengduan/gio-fly/op"
+	"github.com/xiaoshengduan/gio-fly/widget"
 )
 
 func TestBool(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"golang.org/x/image/font/gofont/goregular"
 	"golang.org/x/image/math/fixed"
 
-	"gioui.org/io/system"
+	"github.com/xiaoshengduan/gio-fly/io/system"
 )
 
 var english = system.Locale{

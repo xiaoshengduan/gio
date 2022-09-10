@@ -3,8 +3,8 @@
 package text
 
 import (
-	"gioui.org/io/system"
-	"gioui.org/op/clip"
+	"github.com/xiaoshengduan/gio-fly/io/system"
+	"github.com/xiaoshengduan/gio-fly/op/clip"
 	"github.com/benoitkugler/textlayout/fonts"
 	"golang.org/x/image/math/fixed"
 )

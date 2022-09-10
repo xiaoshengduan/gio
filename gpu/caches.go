@@ -5,7 +5,7 @@ package gpu
 import (
 	"fmt"
 
-	"gioui.org/internal/f32"
+	"github.com/xiaoshengduan/gio-fly/internal/f32"
 )
 
 type resourceCache struct {

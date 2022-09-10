@@ -5,9 +5,9 @@ package layout
 import (
 	"image"
 
-	"gioui.org/gesture"
-	"gioui.org/op"
-	"gioui.org/op/clip"
+	"github.com/xiaoshengduan/gio-fly/gesture"
+	"github.com/xiaoshengduan/gio-fly/op"
+	"github.com/xiaoshengduan/gio-fly/op/clip"
 )
 
 type scrollChild struct {

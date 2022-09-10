@@ -7,12 +7,12 @@ import (
 	"image"
 	"image/color"
 
-	"gioui.org/io/key"
+	"github.com/xiaoshengduan/gio-fly/io/key"
 
-	"gioui.org/gpu"
-	"gioui.org/io/pointer"
-	"gioui.org/io/system"
-	"gioui.org/unit"
+	"github.com/xiaoshengduan/gio-fly/gpu"
+	"github.com/xiaoshengduan/gio-fly/io/pointer"
+	"github.com/xiaoshengduan/gio-fly/io/system"
+	"github.com/xiaoshengduan/gio-fly/unit"
 )
 
 // errOutOfDate is reported when the GPU surface dimensions or properties no

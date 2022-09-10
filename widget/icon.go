@@ -7,11 +7,11 @@ import (
 	"image/color"
 	"image/draw"
 
-	"gioui.org/internal/f32color"
-	"gioui.org/layout"
-	"gioui.org/op/clip"
-	"gioui.org/op/paint"
-	"gioui.org/unit"
+	"github.com/xiaoshengduan/gio-fly/internal/f32color"
+	"github.com/xiaoshengduan/gio-fly/layout"
+	"github.com/xiaoshengduan/gio-fly/op/clip"
+	"github.com/xiaoshengduan/gio-fly/op/paint"
+	"github.com/xiaoshengduan/gio-fly/unit"
 
 	"golang.org/x/exp/shiny/iconvg"
 )

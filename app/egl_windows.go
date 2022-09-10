@@ -5,7 +5,7 @@ package app
 import (
 	"golang.org/x/sys/windows"
 
-	"gioui.org/internal/egl"
+	"github.com/xiaoshengduan/gio-fly/internal/egl"
 )
 
 type glContext struct {

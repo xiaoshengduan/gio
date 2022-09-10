@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"image"
 
-	"gioui.org/io/semantic"
-	"gioui.org/io/system"
-	"gioui.org/layout"
-	"gioui.org/op"
-	"gioui.org/op/clip"
-	"gioui.org/op/paint"
-	"gioui.org/text"
-	"gioui.org/unit"
+	"github.com/xiaoshengduan/gio-fly/io/semantic"
+	"github.com/xiaoshengduan/gio-fly/io/system"
+	"github.com/xiaoshengduan/gio-fly/layout"
+	"github.com/xiaoshengduan/gio-fly/op"
+	"github.com/xiaoshengduan/gio-fly/op/clip"
+	"github.com/xiaoshengduan/gio-fly/op/paint"
+	"github.com/xiaoshengduan/gio-fly/text"
+	"github.com/xiaoshengduan/gio-fly/unit"
 
 	"golang.org/x/image/math/fixed"
 )

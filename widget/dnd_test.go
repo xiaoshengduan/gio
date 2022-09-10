@@ -4,13 +4,13 @@ import (
 	"image"
 	"testing"
 
-	"gioui.org/f32"
-	"gioui.org/io/pointer"
-	"gioui.org/io/router"
-	"gioui.org/io/transfer"
-	"gioui.org/layout"
-	"gioui.org/op"
-	"gioui.org/op/clip"
+	"github.com/xiaoshengduan/gio-fly/f32"
+	"github.com/xiaoshengduan/gio-fly/io/pointer"
+	"github.com/xiaoshengduan/gio-fly/io/router"
+	"github.com/xiaoshengduan/gio-fly/io/transfer"
+	"github.com/xiaoshengduan/gio-fly/layout"
+	"github.com/xiaoshengduan/gio-fly/op"
+	"github.com/xiaoshengduan/gio-fly/op/clip"
 )
 
 func TestDraggable(t *testing.T) {

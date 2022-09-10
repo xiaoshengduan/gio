@@ -11,8 +11,8 @@ import (
 
 	"unsafe"
 
-	"gioui.org/gpu"
-	"gioui.org/internal/gl"
+	"github.com/xiaoshengduan/gio-fly/gpu"
+	"github.com/xiaoshengduan/gio-fly/internal/gl"
 )
 
 /*

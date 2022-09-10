@@ -10,8 +10,8 @@ import (
 
 	"golang.org/x/image/math/fixed"
 
-	"gioui.org/io/system"
-	"gioui.org/op/clip"
+	"github.com/xiaoshengduan/gio-fly/io/system"
+	"github.com/xiaoshengduan/gio-fly/op/clip"
 )
 
 // Shaper implements layout and shaping of text.

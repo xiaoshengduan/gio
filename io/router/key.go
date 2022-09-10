@@ -6,9 +6,9 @@ import (
 	"image"
 	"sort"
 
-	"gioui.org/f32"
-	"gioui.org/io/event"
-	"gioui.org/io/key"
+	"github.com/xiaoshengduan/gio-fly/f32"
+	"github.com/xiaoshengduan/gio-fly/io/event"
+	"github.com/xiaoshengduan/gio-fly/io/key"
 )
 
 // EditorState represents the state of an editor needed by input handlers.

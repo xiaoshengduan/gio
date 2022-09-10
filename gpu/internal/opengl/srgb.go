@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"strings"
 
-	"gioui.org/internal/byteslice"
-	"gioui.org/internal/gl"
+	"github.com/xiaoshengduan/gio-fly/internal/byteslice"
+	"github.com/xiaoshengduan/gio-fly/internal/gl"
 )
 
 // SRGBFBO implements an intermediate sRGB FBO

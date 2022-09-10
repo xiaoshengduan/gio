@@ -5,12 +5,12 @@ package widget
 import (
 	"image"
 
-	"gioui.org/f32"
-	"gioui.org/layout"
-	"gioui.org/op"
-	"gioui.org/op/clip"
-	"gioui.org/op/paint"
-	"gioui.org/unit"
+	"github.com/xiaoshengduan/gio-fly/f32"
+	"github.com/xiaoshengduan/gio-fly/layout"
+	"github.com/xiaoshengduan/gio-fly/op"
+	"github.com/xiaoshengduan/gio-fly/op/clip"
+	"github.com/xiaoshengduan/gio-fly/op/paint"
+	"github.com/xiaoshengduan/gio-fly/unit"
 )
 
 // Image is a widget that displays an image.

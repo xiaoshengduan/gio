@@ -10,7 +10,7 @@ import (
 	"errors"
 	"unsafe"
 
-	"gioui.org/internal/egl"
+	"github.com/xiaoshengduan/gio-fly/internal/egl"
 )
 
 /*

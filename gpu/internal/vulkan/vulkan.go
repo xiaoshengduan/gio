@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"image"
 
-	"gioui.org/gpu/internal/driver"
-	"gioui.org/internal/vk"
+	"github.com/xiaoshengduan/gio-fly/gpu/internal/driver"
+	"github.com/xiaoshengduan/gio-fly/internal/vk"
 	"gioui.org/shader"
 )
 

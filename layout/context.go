@@ -6,10 +6,10 @@ import (
 	"image"
 	"time"
 
-	"gioui.org/io/event"
-	"gioui.org/io/system"
-	"gioui.org/op"
-	"gioui.org/unit"
+	"github.com/xiaoshengduan/gio-fly/io/event"
+	"github.com/xiaoshengduan/gio-fly/io/system"
+	"github.com/xiaoshengduan/gio-fly/op"
+	"github.com/xiaoshengduan/gio-fly/unit"
 )
 
 // Context carries the state needed by almost all layouts and widgets.

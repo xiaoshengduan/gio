@@ -7,9 +7,9 @@ import (
 
 	"golang.org/x/exp/shiny/materialdesign/icons"
 
-	"gioui.org/text"
-	"gioui.org/unit"
-	"gioui.org/widget"
+	"github.com/xiaoshengduan/gio-fly/text"
+	"github.com/xiaoshengduan/gio-fly/unit"
+	"github.com/xiaoshengduan/gio-fly/widget"
 )
 
 // Palette contains the minimal set of colors that a widget may need to

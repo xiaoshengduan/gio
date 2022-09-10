@@ -6,15 +6,15 @@ import (
 	"image"
 	"io"
 
-	"gioui.org/f32"
-	f32internal "gioui.org/internal/f32"
-	"gioui.org/internal/ops"
-	"gioui.org/io/event"
-	"gioui.org/io/key"
-	"gioui.org/io/pointer"
-	"gioui.org/io/semantic"
-	"gioui.org/io/system"
-	"gioui.org/io/transfer"
+	"github.com/xiaoshengduan/gio-fly/f32"
+	f32internal "github.com/xiaoshengduan/gio-fly/internal/f32"
+	"github.com/xiaoshengduan/gio-fly/internal/ops"
+	"github.com/xiaoshengduan/gio-fly/io/event"
+	"github.com/xiaoshengduan/gio-fly/io/key"
+	"github.com/xiaoshengduan/gio-fly/io/pointer"
+	"github.com/xiaoshengduan/gio-fly/io/semantic"
+	"github.com/xiaoshengduan/gio-fly/io/system"
+	"github.com/xiaoshengduan/gio-fly/io/transfer"
 )
 
 type pointerQueue struct {

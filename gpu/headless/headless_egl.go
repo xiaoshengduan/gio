@@ -6,7 +6,7 @@
 package headless
 
 import (
-	"gioui.org/internal/egl"
+	"github.com/xiaoshengduan/gio-fly/internal/egl"
 )
 
 func init() {

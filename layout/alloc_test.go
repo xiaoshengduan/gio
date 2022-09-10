@@ -9,7 +9,7 @@ import (
 	"image"
 	"testing"
 
-	"gioui.org/op"
+	"github.com/xiaoshengduan/gio-fly/op"
 )
 
 func TestStackAllocs(t *testing.T) {

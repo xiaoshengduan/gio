@@ -9,14 +9,14 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"gioui.org/font/gofont"
-	"gioui.org/io/key"
-	"gioui.org/io/router"
-	"gioui.org/layout"
-	"gioui.org/op"
-	"gioui.org/text"
-	"gioui.org/unit"
-	"gioui.org/widget"
+	"github.com/xiaoshengduan/gio-fly/font/gofont"
+	"github.com/xiaoshengduan/gio-fly/io/key"
+	"github.com/xiaoshengduan/gio-fly/io/router"
+	"github.com/xiaoshengduan/gio-fly/layout"
+	"github.com/xiaoshengduan/gio-fly/op"
+	"github.com/xiaoshengduan/gio-fly/text"
+	"github.com/xiaoshengduan/gio-fly/unit"
+	"github.com/xiaoshengduan/gio-fly/widget"
 )
 
 func FuzzIME(f *testing.F) {

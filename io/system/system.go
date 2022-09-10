@@ -8,9 +8,9 @@ import (
 	"image"
 	"time"
 
-	"gioui.org/io/event"
-	"gioui.org/op"
-	"gioui.org/unit"
+	"github.com/xiaoshengduan/gio-fly/io/event"
+	"github.com/xiaoshengduan/gio-fly/op"
+	"github.com/xiaoshengduan/gio-fly/unit"
 )
 
 // A FrameEvent requests a new frame in the form of a list of

@@ -11,8 +11,8 @@ import (
 	"time"
 	"unsafe"
 
-	"gioui.org/gpu/internal/driver"
-	"gioui.org/internal/gl"
+	"github.com/xiaoshengduan/gio-fly/gpu/internal/driver"
+	"github.com/xiaoshengduan/gio-fly/internal/gl"
 	"gioui.org/shader"
 )
 

@@ -3,8 +3,8 @@ package system
 import (
 	"strings"
 
-	"gioui.org/internal/ops"
-	"gioui.org/op"
+	"github.com/xiaoshengduan/gio-fly/internal/ops"
+	"github.com/xiaoshengduan/gio-fly/op"
 )
 
 // ActionAreaOp makes the current clip area available for

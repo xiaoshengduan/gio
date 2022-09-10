@@ -37,16 +37,16 @@ import (
 	"time"
 	"unsafe"
 
-	"gioui.org/f32"
-	"gioui.org/io/clipboard"
-	"gioui.org/io/key"
-	"gioui.org/io/pointer"
-	"gioui.org/io/system"
-	"gioui.org/unit"
+	"github.com/xiaoshengduan/gio-fly/f32"
+	"github.com/xiaoshengduan/gio-fly/io/clipboard"
+	"github.com/xiaoshengduan/gio-fly/io/key"
+	"github.com/xiaoshengduan/gio-fly/io/pointer"
+	"github.com/xiaoshengduan/gio-fly/io/system"
+	"github.com/xiaoshengduan/gio-fly/unit"
 
 	syscall "golang.org/x/sys/unix"
 
-	"gioui.org/app/internal/xkb"
+	"github.com/xiaoshengduan/gio-fly/app/internal/xkb"
 )
 
 const (

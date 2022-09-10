@@ -11,8 +11,8 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"gioui.org/gpu/internal/driver"
-	"gioui.org/internal/d3d11"
+	"github.com/xiaoshengduan/gio-fly/gpu/internal/driver"
+	"github.com/xiaoshengduan/gio-fly/internal/d3d11"
 	"gioui.org/shader"
 )
 

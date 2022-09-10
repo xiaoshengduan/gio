@@ -12,14 +12,14 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"gioui.org/internal/f32color"
+	"github.com/xiaoshengduan/gio-fly/internal/f32color"
 
-	"gioui.org/f32"
-	"gioui.org/io/clipboard"
-	"gioui.org/io/key"
-	"gioui.org/io/pointer"
-	"gioui.org/io/system"
-	"gioui.org/unit"
+	"github.com/xiaoshengduan/gio-fly/f32"
+	"github.com/xiaoshengduan/gio-fly/io/clipboard"
+	"github.com/xiaoshengduan/gio-fly/io/key"
+	"github.com/xiaoshengduan/gio-fly/io/pointer"
+	"github.com/xiaoshengduan/gio-fly/io/system"
+	"github.com/xiaoshengduan/gio-fly/unit"
 )
 
 type ViewEvent struct{}

@@ -5,10 +5,10 @@ package widget
 import (
 	"image"
 
-	"gioui.org/gesture"
-	"gioui.org/io/pointer"
-	"gioui.org/layout"
-	"gioui.org/op/clip"
+	"github.com/xiaoshengduan/gio-fly/gesture"
+	"github.com/xiaoshengduan/gio-fly/io/pointer"
+	"github.com/xiaoshengduan/gio-fly/layout"
+	"github.com/xiaoshengduan/gio-fly/op/clip"
 )
 
 // Float is for selecting a value in a range.

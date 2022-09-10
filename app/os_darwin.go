@@ -48,7 +48,7 @@ import (
 	"unicode/utf16"
 	"unsafe"
 
-	"gioui.org/io/pointer"
+	"github.com/xiaoshengduan/gio-fly/io/pointer"
 )
 
 // displayLink is the state for a display link (CVDisplayLinkRef on macOS,

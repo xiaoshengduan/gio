@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"strings"
 
-	"gioui.org/gpu"
+	"github.com/xiaoshengduan/gio-fly/gpu"
 )
 
 type Context struct {

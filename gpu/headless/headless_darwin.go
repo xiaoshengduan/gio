@@ -5,8 +5,8 @@ package headless
 import (
 	"errors"
 
-	"gioui.org/gpu"
-	_ "gioui.org/internal/cocoainit"
+	"github.com/xiaoshengduan/gio-fly/gpu"
+	_ "github.com/xiaoshengduan/gio-fly/internal/cocoainit"
 )
 
 /*

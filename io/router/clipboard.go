@@ -3,7 +3,7 @@
 package router
 
 import (
-	"gioui.org/io/event"
+	"github.com/xiaoshengduan/gio-fly/io/event"
 )
 
 type clipboardQueue struct {

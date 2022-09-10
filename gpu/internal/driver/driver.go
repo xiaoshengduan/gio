@@ -7,7 +7,7 @@ import (
 	"image"
 	"time"
 
-	"gioui.org/internal/f32color"
+	"github.com/xiaoshengduan/gio-fly/internal/f32color"
 	"gioui.org/shader"
 )
 

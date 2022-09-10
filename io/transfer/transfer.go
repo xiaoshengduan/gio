@@ -20,9 +20,9 @@ package transfer
 import (
 	"io"
 
-	"gioui.org/internal/ops"
-	"gioui.org/io/event"
-	"gioui.org/op"
+	"github.com/xiaoshengduan/gio-fly/internal/ops"
+	"github.com/xiaoshengduan/gio-fly/io/event"
+	"github.com/xiaoshengduan/gio-fly/op"
 )
 
 // SourceOp registers a tag as a data source for a MIME type.

@@ -9,7 +9,7 @@ package app
 import (
 	"unsafe"
 
-	"gioui.org/internal/egl"
+	"github.com/xiaoshengduan/gio-fly/internal/egl"
 )
 
 type x11Context struct {

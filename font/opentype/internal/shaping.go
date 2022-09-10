@@ -3,8 +3,8 @@ package internal
 import (
 	"io"
 
-	"gioui.org/io/system"
-	"gioui.org/text"
+	"github.com/xiaoshengduan/gio-fly/io/system"
+	"github.com/xiaoshengduan/gio-fly/text"
 	"github.com/benoitkugler/textlayout/language"
 	"github.com/gioui/uax/segment"
 	"github.com/gioui/uax/uax14"

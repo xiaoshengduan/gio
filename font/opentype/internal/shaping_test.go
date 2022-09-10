@@ -7,8 +7,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	"gioui.org/io/system"
-	"gioui.org/text"
+	"github.com/xiaoshengduan/gio-fly/io/system"
+	"github.com/xiaoshengduan/gio-fly/text"
 	"github.com/go-text/typesetting/di"
 	"github.com/go-text/typesetting/shaping"
 	"golang.org/x/image/math/fixed"

@@ -18,23 +18,23 @@ import (
 	"time"
 	"unsafe"
 
-	"gioui.org/gpu/internal/driver"
-	"gioui.org/internal/byteslice"
-	"gioui.org/internal/f32"
-	"gioui.org/internal/f32color"
-	"gioui.org/internal/ops"
-	"gioui.org/internal/scene"
-	"gioui.org/internal/stroke"
-	"gioui.org/layout"
-	"gioui.org/op"
+	"github.com/xiaoshengduan/gio-fly/gpu/internal/driver"
+	"github.com/xiaoshengduan/gio-fly/internal/byteslice"
+	"github.com/xiaoshengduan/gio-fly/internal/f32"
+	"github.com/xiaoshengduan/gio-fly/internal/f32color"
+	"github.com/xiaoshengduan/gio-fly/internal/ops"
+	"github.com/xiaoshengduan/gio-fly/internal/scene"
+	"github.com/xiaoshengduan/gio-fly/internal/stroke"
+	"github.com/xiaoshengduan/gio-fly/layout"
+	"github.com/xiaoshengduan/gio-fly/op"
 	"gioui.org/shader"
 	"gioui.org/shader/gio"
 
 	// Register backends.
-	_ "gioui.org/gpu/internal/d3d11"
-	_ "gioui.org/gpu/internal/metal"
-	_ "gioui.org/gpu/internal/opengl"
-	_ "gioui.org/gpu/internal/vulkan"
+	_ "github.com/xiaoshengduan/gio-fly/gpu/internal/d3d11"
+	_ "github.com/xiaoshengduan/gio-fly/gpu/internal/metal"
+	_ "github.com/xiaoshengduan/gio-fly/gpu/internal/opengl"
+	_ "github.com/xiaoshengduan/gio-fly/gpu/internal/vulkan"
 )
 
 type GPU interface {
