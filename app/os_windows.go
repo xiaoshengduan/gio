@@ -143,7 +143,7 @@ func initResources(defaultIconPath string) error {
 
 	var icon syscall.Handle
 	if defaultIconPath != ""{
-		icon, _ = windows.LoadIconFromPath("")
+		icon, _ = windows.LoadIconFromPath(defaultIconPath)
 	}else{
 		icon, _ = windows.LoadImage(hInst, iconID, windows.IMAGE_ICON, 0, 0, windows.LR_DEFAULTSIZE|windows.LR_SHARED)
 	}
