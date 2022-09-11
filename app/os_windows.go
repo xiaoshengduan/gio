@@ -98,7 +98,12 @@ func newWindow(window *callbacks, options []Option) error {
 		// Instead lock the thread so window messages arrive through
 		// unfiltered GetMessage calls.
 		runtime.LockOSThread()
-		w, err := createNativeWindow()
+
+		var config Config
+		dpi := windows.GetSystemDPI()
+		metric := configForDPI(dpi)
+		config.apply(metric, options)
+		w, err := createNativeWindow(&config)
 		if err != nil {
 			cerr <- err
 			return
@@ -123,7 +128,7 @@ func newWindow(window *callbacks, options []Option) error {
 }
 
 // initResources initializes the resources global.
-func initResources() error {
+func initResources(defaultIconPath string) error {
 	windows.SetProcessDPIAware()
 	hInst, err := windows.GetModuleHandle()
 	if err != nil {
@@ -135,7 +140,13 @@ func initResources() error {
 		return err
 	}
 	resources.cursor = c
-	icon, _ := windows.LoadImage(hInst, iconID, windows.IMAGE_ICON, 0, 0, windows.LR_DEFAULTSIZE|windows.LR_SHARED)
+
+	var icon syscall.Handle
+	if defaultIconPath != ""{
+		icon, _ = windows.LoadIconFromPath("")
+	}else{
+		icon, _ = windows.LoadImage(hInst, iconID, windows.IMAGE_ICON, 0, 0, windows.LR_DEFAULTSIZE|windows.LR_SHARED)
+	}
 	wcls := windows.WndClassEx{
 		CbSize:        uint32(unsafe.Sizeof(windows.WndClassEx{})),
 		Style:         windows.CS_HREDRAW | windows.CS_VREDRAW | windows.CS_OWNDC,
@@ -154,10 +165,10 @@ func initResources() error {
 
 const dwExStyle = windows.WS_EX_APPWINDOW | windows.WS_EX_WINDOWEDGE
 
-func createNativeWindow() (*window, error) {
+func createNativeWindow(config *Config) (*window, error) {
 	var resErr error
 	resources.once.Do(func() {
-		resErr = initResources()
+		resErr = initResources(config.IconPath)
 	})
 	if resErr != nil {
 		return nil, resErr

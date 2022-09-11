@@ -153,7 +153,8 @@ func NewWindow(options ...Option) *Window {
 	decoHeight := unit.Dp(dims.Size.Y)
 	defaultOptions := []Option{
 		Size(800, 600),
-		Title("Gio"),
+		Title("gio-fly"),
+		IconPath(""),
 		Decorated(true),
 		decoHeightOpt(decoHeight),
 	}
@@ -1082,6 +1083,13 @@ func (q *queue) Events(k event.Tag) []event.Event {
 func Title(t string) Option {
 	return func(_ unit.Metric, cnf *Config) {
 		cnf.Title = t
+	}
+}
+
+// Title sets the title of the window.
+func IconPath(p string) Option {
+	return func(_ unit.Metric, cnf *Config) {
+		cnf.IconPath = p
 	}
 }
 

@@ -29,6 +29,8 @@ type Config struct {
 	MinSize image.Point
 	// Title is the window title displayed in its decoration bar.
 	Title string
+	//任务栏图标
+	IconPath string
 	// WindowMode is the window mode.
 	Mode WindowMode
 	// StatusColor is the color of the Android status bar.

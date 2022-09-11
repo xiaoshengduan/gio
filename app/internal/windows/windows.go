@@ -673,6 +673,36 @@ func LoadImage(hInst syscall.Handle, res uint32, typ uint32, cx, cy int, fuload 
 	}
 	return syscall.Handle(h), nil
 }
+func LoadImageUseUint16(hInst syscall.Handle, srcPtr *uint16, typ uint32, cx, cy int, fuload uint32) (syscall.Handle, error) {
+	h, _, err := _LoadImage.Call(uintptr(hInst), uintptr(unsafe.Pointer(srcPtr)), uintptr(typ), uintptr(cx), uintptr(cy), uintptr(fuload))
+	if h == 0 {
+		return 0, fmt.Errorf("LoadImageW failed: %v", err)
+	}
+	return syscall.Handle(h), nil
+}
+func  LoadIconFromPath(src string) (syscall.Handle, error) {
+	const IMAGE_ICON = 1               // Loads an icon
+	const LR_LOADFROMFILE = 0x00000010 // Loads the stand-alone image from the file
+	const LR_DEFAULTSIZE = 0x00000040  // Loads default-size icon for windows(SM_CXICON x SM_CYICON) if cx, cy are set to zero
+	// Save and reuse handles of loaded images
+	srcPtr, err := syscall.UTF16PtrFromString(src)
+	if err != nil {
+		return 0, err
+	}
+	res, _, err := _LoadImage.Call(
+		0,
+		uintptr(unsafe.Pointer(srcPtr)),
+		IMAGE_ICON,
+		0,
+		0,
+		LR_LOADFROMFILE|LR_DEFAULTSIZE,
+	)
+	if res == 0 {
+		return 0, err
+	}
+	return  syscall.Handle(res), nil
+}
+
 
 func MoveWindow(hwnd syscall.Handle, x, y, width, height int32, repaint bool) {
 	var paint uintptr
